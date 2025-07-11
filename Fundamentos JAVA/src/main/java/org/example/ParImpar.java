@@ -8,7 +8,7 @@ public class ParImpar {
 
         System.out.print("Ingresar número: ");
             int numero = scanner.nextInt();//Guardamos el número ingresado
-
+//nextInt()Es un metodo de la clase Scanner
         if (numero % 2 == 0){//Si el resto de dividir por dos es cero
             System.out.print("El número es par");
         }else {
