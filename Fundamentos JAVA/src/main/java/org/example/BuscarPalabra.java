@@ -23,7 +23,7 @@ public class BuscarPalabra {
         if (encontrada){
             System.out.println("La palabra" + buscar + "Esta en la lista");
         }else {
-            System.out.println("La palabra " + buscar + "no esta en la lista");
+            System.out.println("La palabra" + buscar + "no esta en la lista");
         }
 
         scanner.close();
