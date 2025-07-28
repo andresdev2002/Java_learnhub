@@ -10,6 +10,7 @@ public class BankAccount {
       this.AccountNumber = AccountNumber;
       this.holderName = holderName;
       this.balance = balance;
+   }
 
    //Deposit method
     public void deposit(double amount){
