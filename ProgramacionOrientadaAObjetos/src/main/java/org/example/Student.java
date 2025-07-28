@@ -32,6 +32,7 @@ public class Student {
         student1.showInfo();
         student1.checkPass();
     }
+
 }
 
 
