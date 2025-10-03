@@ -12,3 +12,10 @@ public class Archivo implements Componente {
         System.out.println("Archivo" + nombre);
     }
 }
+//Archivo es un Leaf (hoja) en el patrón Composite.
+//
+//Representa un objeto simple que no contiene otros elementos.
+//
+//Implementa mostrar() para imprimir su nombre.
+//
+//Ejemplo de uso: Archivo foto.jpg.
