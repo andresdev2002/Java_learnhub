@@ -7,11 +7,11 @@ public class Compresor {
         this.estrategiaCompresion = estrategiaCompresion;
     }
 
-    public void comprimir(String formato){
-        if (estrategiaCompresion = null){
+    public void comprimir(String archivo){
+        if (estrategiaCompresion == null){
             System.out.println("No existe ningún formato");
         }else {
-            EstrategiaCompresion.comprimir(String formato);
+            estrategiaCompresion.comprimir(archivo);
         }
     }
 }

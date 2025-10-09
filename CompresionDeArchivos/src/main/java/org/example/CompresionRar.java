@@ -2,7 +2,7 @@ package org.example;
 
 public class CompresionRar implements EstrategiaCompresion {
     @Override
-    public void comprimir(String formato){
-        System.out.println("Comprimiendo el formato" + formato);
+    public void comprimir(String archivo){
+        System.out.println("Comprimiendo el archivo" + archivo);
     }
 }
