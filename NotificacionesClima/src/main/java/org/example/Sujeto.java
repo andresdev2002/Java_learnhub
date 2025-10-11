@@ -1,7 +1,7 @@
 package org.example;
 
 public interface Sujeto {
-    void agregarObservadores(Observador a);
-    void eliminarObservadores(Observador a);
-    void notificarObservadores(String mensaje);
+    void agregarObservador(Observador a);
+    void eliminarObservador(Observador a);
+    void notificarObservador(String mensaje);
 }
