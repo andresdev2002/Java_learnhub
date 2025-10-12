@@ -9,6 +9,6 @@ public class PanelPublico implements Observador{
 
     @Override
     public void actualizar(String mensaje){
-        System.out.println(nombre + "ha recibido la notificación" + mensaje);
+        System.out.println(nombre + " ha recibido la notificación" + mensaje);
     }
 }
